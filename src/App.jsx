@@ -36,45 +36,45 @@ function App() {
           Learning is endless ofcourse, but I'm quite confident in the following
           stuff.
         </p>
-        <div class="flex border gap-[4rem] mt-[5vh]">
-          <span class="flex border flex-col items-center">
+        <div class="flex  gap-[2rem] sm:gap-[6rem]  mt-[5vh]">
+          <span class="flex  flex-col items-center">
             <img
               src="preact.svg"
-              class=" hover:w-[180px] hover:transition-all transition-all min-w-[50px] w-[50px]  sm:min-w-[140px]"
+              class=" hover:w-[180px] hover:transition-all transition-all min-w-[80px] w-[80px]  sm:min-w-[140px]"
               alt=""
             />
             Preact
           </span>
-          <span class="flex border flex-col items-center">
+          <span class="flex  flex-col items-center">
             <img
               src="deno.svg"
-              class=" hover:w-[180px] hover:transition-all transition-all min-w-[50px] w-[50px]  sm:min-w-[140px]"
+              class=" hover:w-[180px] hover:transition-all transition-all min-w-[80px] w-[80px]  sm:min-w-[140px]"
               alt=""
             />
             Fresh
           </span>
-          <span class="flex border flex-col items-center">
+          <span class="flex  flex-col items-center">
             <img
               src="typescript.svg"
-              class=" hover:w-[180px] hover:transition-all transition-all min-w-[50px] w-[50px]  sm:min-w-[140px]"
+              class=" hover:w-[180px] hover:transition-all transition-all min-w-[80px] w-[80px]  sm:min-w-[140px]"
               alt=""
             />
             Typescript
           </span>
         </div>
-        <div className="flex border gap-[6vh] mt-[5vh]">
-          <span class="flex border flex-col items-center">
+        <div className="flex  gap-[6vh] mt-[5vh]">
+          <span class="flex  flex-col items-center">
             <img
               src="solidjs.svg"
-              class=" hover:w-[180px] hover:transition-all transition-all min-w-[50px] w-[50px]  sm:min-w-[140px]"
+              class=" hover:w-[180px] hover:transition-all transition-all min-w-[80px] w-[80px]  sm:min-w-[140px]"
               alt=""
             />
             SolidJS
           </span>
-          <span class="flex border flex-col items-center">
+          <span class="flex  flex-col items-center">
             <img
               src="figma.svg"
-              class=" hover:w-[180px] hover:transition-all transition-all min-w-[50px] w-[50px]  sm:min-w-[140px]"
+              class=" hover:w-[180px] hover:transition-all transition-all min-w-[80px] w-[80px]  sm:min-w-[140px]"
               alt=""
             />
             Figma
