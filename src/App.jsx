@@ -36,14 +36,14 @@ function App() {
           Learning is endless ofcourse, but I'm quite confident in the following
           stuff.
         </p>
-        <div class="flex border gap-[6rem] mt-[5vh]">
+        <div class="flex border gap-[4rem] mt-[5vh]">
           <span class="flex border flex-col items-center">
             <img
               src="preact.svg"
               class=" hover:w-[180px] hover:transition-all transition-all min-w-[50px] w-[50px]  sm:min-w-[140px]"
               alt=""
             />
-            React/Preact
+            Preact
           </span>
           <span class="flex border flex-col items-center">
             <img
@@ -51,7 +51,7 @@ function App() {
               class=" hover:w-[180px] hover:transition-all transition-all min-w-[50px] w-[50px]  sm:min-w-[140px]"
               alt=""
             />
-            Deno/Fresh
+            Fresh
           </span>
           <span class="flex border flex-col items-center">
             <img
@@ -59,7 +59,7 @@ function App() {
               class=" hover:w-[180px] hover:transition-all transition-all min-w-[50px] w-[50px]  sm:min-w-[140px]"
               alt=""
             />
-            Javscript/Typescript
+            Typescript
           </span>
         </div>
         <div className="flex border gap-[6vh] mt-[5vh]">
