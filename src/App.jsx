@@ -84,7 +84,7 @@ function App() {
 
       <div
         id="project"
-        class="flex flex-col mt-[15vh]  mx-[10%] items-center gap-[3vh] justify-center"
+        class="flex flex-col mt-[15vh]  mx-[10%]  items-center gap-[3vh] justify-center"
       >
         <h1 class="text-xl font-semibold text-blue-500">Projects</h1>
         <h1 class="text-4xl  font-bold">Pokédex</h1>
@@ -103,24 +103,23 @@ function App() {
             View Repo
           </a>
         </span>
-        <span class=" text-gray-300 text-xl">
+        <span class=" text-gray-300 text-xl w-full sm:w-[66%] ">
           <p>
-            This was one of my favourite projects since I'm hardcore Pokéfan!
+            This was one of my favourite projects since I'm a hardcore Pokéfan!
             It's a Pokédex (Pokémon Library) which contains info about all 746
             Pokémons! Includes Pokemon's description and move's types.
           </p>
           <p class="mt-5">
-            It runs on the recently released JS-runtime, Deno. Built on top of
-            the Fullstack framework for Deno, Fresh. Styled using TailwindCSS
-            and deployed though Netlify for reliable performance.
+            The frontend is developed using React. Pokéapi is used for the
+            data-images, moves, Pokémon names etc.
           </p>
         </span>
 
         <h1 class="text-4xl  font-bold">Fashion Ecommerce</h1>
-        <img src="backpoke.jpg" class=" rounded-md w-[800px]" alt="" />
+        <img src="ecommerce.png" class=" rounded-md w-[800px]" alt="" />
         <span class="flex gap-10">
           <a
-            href=""
+            href="https://ecommercesimon.deno.dev/"
             class="bg-pink-300 text-black hover:bg-pink-500 transition-all px-5 py-1 rounded-md"
           >
             Live Site
@@ -132,7 +131,32 @@ function App() {
             View Repo
           </a>
         </span>
+        <span class=" text-gray-300 text-xl w-full sm:w-[66%] ">
+          <p>
+            A fashion-ecommerce theme website. Classic-light themed. Can easily
+            adapt to any kind of store. Integrated with Stripe for payments.
+          </p>
+          <p class="mt-5">
+            It runs on the recently released JS-runtime, Deno. Built on top of
+            the Fullstack framework for Deno, Fresh. Styled using TailwindCSS
+            and deployed though Netlify for reliable performance.
+          </p>
+        </span>
       </div>
+      <footer class="bg-[#EEA47FFF] text-black h-[300px] mt-24 rounded-sm flex flex-col items-center">
+        <span class="mt-10 font-semibold text-xl flex flex-col  items-center gap-6">
+          <a href="#cover">Back to the top</a>
+          <a href="mailto:">nikhilsimontoppo@gmail.com</a>
+          <span class="flex mt-6  w-full justify-between">
+            <img src="twitter.svg" class="w-10" alt="" />
+            <img src="instagram.svg" class="w-10" alt="" />
+            <img src="github.svg" class="w-10" alt="" />
+          </span>
+          <span class="text-sm">
+            &copy 2022 Nikhil Toppo. All Rights Reserved.
+          </span>
+        </span>
+      </footer>
     </div>
   );
 }
