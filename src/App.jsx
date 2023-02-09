@@ -91,13 +91,15 @@ function App() {
         <img src="backpoke.jpg" class=" rounded-md w-[800px]" alt="" />
         <span class="flex gap-10">
           <a
-            href=""
+            href="https://nimble-douhua-5b7bf1.netlify.app/"
+            target="_blank"
             class="bg-pink-300 text-black hover:bg-pink-500 transition-all px-5 py-1 rounded-md"
           >
             Live Site
           </a>
           <a
-            href=""
+            href="https://github.com/Kirito-Excalibur/PokeDex"
+            target="_blank"
             class="bg-pink-300 text-black hover:bg-pink-500 transition-all px-5 py-1 rounded-md"
           >
             View Repo
@@ -120,12 +122,14 @@ function App() {
         <span class="flex gap-10">
           <a
             href="https://ecommercesimon.deno.dev/"
+            target="_blank"
             class="bg-pink-300 text-black hover:bg-pink-500 transition-all px-5 py-1 rounded-md"
           >
             Live Site
           </a>
           <a
-            href=""
+            href="https://github.com/Kirito-Excalibur/Ecommerce"
+            target="_blank"
             class="bg-pink-300 text-black hover:bg-pink-500 transition-all px-5 py-1 rounded-md"
           >
             View Repo
