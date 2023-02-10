@@ -152,9 +152,15 @@ function App() {
           <a href="#cover">Back to the top</a>
           <a href="mailto:">nikhilsimontoppo@gmail.com</a>
           <span class="flex mt-6  w-full justify-between">
-            <img src="twitter.svg" class="w-10" alt="" />
-            <img src="instagram.svg" class="w-10" alt="" />
-            <img src="github.svg" class="w-10" alt="" />
+            <a target="_blank" href="https://twitter.com/KiritoLightLife">
+              <img src="twitter.svg" class="w-10" alt="" />
+            </a>
+            <a target="_blank" href="https://www.instagram.com/mega_kirito/">
+              <img src="instagram.svg" class="w-10" alt="" />
+            </a>
+            <a target="_blank" href="https://github.com/Kirito-Excalibur">
+              <img src="github.svg" class="w-10" alt="" />
+            </a>
           </span>
           <span class="text-sm">
             &copy 2022 Nikhil Toppo. All Rights Reserved.
