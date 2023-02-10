@@ -73,7 +73,7 @@ function App() {
               Typescript
             </span>
           </div>
-          <div className="flex  gap-[6vh] mt-[5vh]">
+          <div className="flex items-center gap-[6vh] mt-[5vh]">
             <span class="flex  flex-col items-center">
               <img
                 src="solidjs.svg"
