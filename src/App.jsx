@@ -3,11 +3,7 @@ import styles from "./App.module.css";
 import { createSignal } from "solid-js";
 
 function App() {
-  const [enable, setEnable] = createSignal(true);
   const [isDark, setIsDark] = createSignal(false);
-  setInterval(() => {
-    setEnable(!enable());
-  }, 800);
 
   return (
     <div class={isDark() ? "dark" : ""}>
