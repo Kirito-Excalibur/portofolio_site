@@ -3,7 +3,7 @@ import styles from "./App.module.css";
 import { createSignal } from "solid-js";
 
 function App() {
-  const [isDark, setIsDark] = createSignal(false);
+  const [isDark, setIsDark] = createSignal(true);
 
   return (
     <div class={isDark() ? "dark" : ""}>
