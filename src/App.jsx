@@ -125,7 +125,12 @@ function App() {
             </p>
           </span>
 
-          <h1 class="text-4xl  font-bold">Fashion Ecommerce</h1>
+          <h1 class="text-4xl flex flex-col align-middle items-center justify-center font-bold">
+            <span> Fashion Ecommerce </span>
+            <span class="text-[16px] text-red-500">
+              The site is currently under reconstruction
+            </span>
+          </h1>
           <img src="ecommerce.png" class=" rounded-md w-[800px]" alt="" />
           <span class="flex gap-10">
             <a
