@@ -160,6 +160,34 @@ function App() {
               and deployed though Netlify for reliable performance.
             </p>
           </span>
+
+          <h1 class="text-4xl  font-bold">Space Tourism</h1>
+          <img src="space_tour.png" class=" rounded-md w-[800px]" alt="" />
+          <span class="flex gap-10">
+            <a
+              href="https://space-tourism-nine-wine.vercel.app/"
+              target="_blank"
+              class="bg-pink-300 text-black hover:bg-pink-500 transition-all px-5 py-1 rounded-md"
+            >
+              Live Site
+            </a>
+            <a
+              href="https://github.com/Kirito-Excalibur/Space_Tourism"
+              target="_blank"
+              class="bg-pink-300 text-black hover:bg-pink-500 transition-all px-5 py-1 rounded-md"
+            >
+              View Repo
+            </a>
+          </span>
+          <span class="  text-xl w-full sm:w-[66%] ">
+            <p>
+              A Space Tourism site to ignite the ire of discovery within you! The frontend is developed using SolidJS and all the data is from frontendmentor.io. Styled using TailwindCSS.
+
+            </p>
+            <p class="mt-5">
+              The site is built with responsiveness as the top priority. A showcase of good UI/UX! Deployed on vercel.
+            </p>
+          </span>
         </div>
         <footer class="bg-gray-300 text-black dark:text-white dark:bg-gradient-to-r from-[#1e1851] to-[#2f2968] h-[300px] mt-24 rounded-sm flex flex-col items-center">
           <span class="mt-10 font-semibold text-xl flex flex-col  items-center gap-6">
