@@ -94,6 +94,31 @@ function App() {
           class="flex flex-col mt-[15vh]  mx-[10%]  items-center gap-[3vh] justify-center"
         >
           <h1 class="text-xl font-semibold text-blue-500">Projects</h1>
+
+
+          <h1 class="text-4xl  font-bold">Graphic Designer Portfolio</h1>
+          <img src="goofball.JPG" class=" rounded-md w-[800px]" alt="" />
+          <span class="flex gap-10">
+            <a
+              href="https://main--dapper-quokka-04f93e.netlify.app/"
+              target="_blank"
+              class="bg-pink-300 text-black hover:bg-pink-500 transition-all px-5 py-1 rounded-md"
+            >
+              Live Site
+            </a>
+          </span>
+          <span class="  text-xl w-full sm:w-[66%] ">
+            <p>
+            A designer portfolio site for an UI/UX and poster designer. 
+            </p>
+            <p class="mt-5">
+              NextJS is used with CharkaUI and styled using Emotions. Framer-Motion has been used for the transitions.
+            </p>
+          </span>
+
+
+
+
           <h1 class="text-4xl  font-bold">Pokédex</h1>
           <img src="backpoke.jpg" class=" rounded-md w-[800px]" alt="" />
           <span class="flex gap-10">
@@ -218,7 +243,7 @@ function App() {
               </a>
             </span>
             <span class="text-sm mt-10">
-              &copy 2022 Nikhil Simon Toppo. All Rights Reserved.
+              &copy 2023 Nikhil Simon Toppo. All Rights Reserved.
             </span>
           </span>
         </footer>
